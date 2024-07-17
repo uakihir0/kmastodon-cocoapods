@@ -1,0 +1,6 @@
+framework module "kmastodon" {
+    umbrella header "kmastodon.h"
+
+    export *
+    module * { export * }
+}
